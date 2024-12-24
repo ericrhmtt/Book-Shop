@@ -16,7 +16,8 @@ const AppStoreBanner = () => {
     return <div className="bg-gray-100 drk:bg-gray-800 text-white py-10 "
     style={bannerImg}
     >
-        <div className="container">
+        
+        <div  className="container">
             <div className='space-y-6 max-w-xl mx-auto'>
                 <h1
                 data-aos="slide-up"

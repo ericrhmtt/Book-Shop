@@ -7,7 +7,7 @@ import { GiFoodTruck } from "react-icons/gi";
 
 const Banner = () => {
     return <>
-    <div className='py-10'>
+    <div className='py-20'>
         <div className="container">
             <div className="grid grid-cols-1 sm:grid-cols-2 item-center gap-6">
                 {/* imgage section */}                           

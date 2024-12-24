@@ -35,13 +35,13 @@ const BooksData = [
 // eslint-disable-next-line react/prop-types
 const BestBooks = ({handleOrderPopup}) => {
 return <>
-    <div className="py-10">
+    <div id='BestBooks' className="pt-10">
         <div className="container">
             {/* Header section */}
             <div className="text-center mb-20 max-w-[400px] mx-auto">
                 <p
                 className="text-sm bg-clip-text text-transparent bg-gradient-to-r from-primary to-secondary"
-                >Trending Books</p>
+                >Best Books</p>
                 <h1 className="text-3xl font-bold">Best Books</h1>
                 <p className="text-l text-gray-400">Ini adalah buku terbaik dengan penjualan terbanyak untuk tahun 2024{" "}
                 </p>
@@ -75,10 +75,6 @@ return <>
                         </div>
                     ))
                 }
-
-
-
-
             </div>
         </div>
     </div>

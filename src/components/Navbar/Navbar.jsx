@@ -9,19 +9,19 @@ const Menu = [
   {
     id: 1,
     name: "Home",
-    link: "/#",
+    link: "#Home",
   },
   {
     id: 2,
     name: "Best Seller",
-    link: "/#services",
+    link: "#BestBooks",
   },
 ];
 
 const DropdownLinks = [
   {
     name: "Trending Books",
-    link: "/#",
+    link: "#TerndingBooks",
   },
   {
     name: "Best Selling",
@@ -33,6 +33,7 @@ const DropdownLinks = [
   },
 ];
 
+// eslint-disable-next-line react/prop-types
 const Navbar = ({handleOrderPopup}) => {
   return (
     <>
