@@ -5,20 +5,21 @@ import Book2 from "../../assets/books/book1.jpg";
 import Book3 from "../../assets/books/book3.jpg";
 import Vector from "../../assets/website/blue-pattern.png";
 
+// eslint-disable-next-line react-refresh/only-export-components
 const ImageList = [
 {
     id: 1,
     img: Book1,
     title: "His Life will forever be Changed",
     description:
-    "lorem His Life will forever be Changed dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+    "His Life will forever be Changed dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
 },
 {
     id: 2,
     img: Book2,
     title: "Who's there",
     description:
-    "Who's there lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+    "Who's there ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
 },
 {
     id: 3,
@@ -30,10 +31,13 @@ const ImageList = [
 ];
 
 const hero = ({handleOrderPopup}) => {
+  // eslint-disable-next-line react-hooks/rules-of-hooks
   const [imageid, setImageId] = useState(Book1);
+  // eslint-disable-next-line react-hooks/rules-of-hooks
   const [title, setTitle] = useState("His Life will forever be Changed");
+  // eslint-disable-next-line react-hooks/rules-of-hooks
   const [description, setDescription] = useState(
-    "lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+    "ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
   );
 
   const bgImage = {
@@ -76,7 +80,7 @@ const hero = ({handleOrderPopup}) => {
                     from-primary text-right text-sm
                     to-secondary"
                 >
-                  by Anonymous
+                  by Sigma Boy
                 </p>
               </h1>
               <p data-aos="slide-up" data-aos-duration="500" data-aos-delay="100" className="text-sm">{description}</p>

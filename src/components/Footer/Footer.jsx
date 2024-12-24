@@ -39,13 +39,12 @@ const Footer = () => {
               Books Store
             </h1>
             <p className="">
-              Lorem ipsum dolor sit amet consectetur. Lorem ipsum dolor sit amet
-              consectetur adipisicing elit. Possimus, voluptate.{" "}
+            Temukan perpustakaan terbaik yang menghadirkan ribuan buku berkualitas di ujung jari Anda.{" "}
             </p>
             <br />
-            <div className="flex items-center gap-3">
+            <div className="flex items-center gap-3 text-xs">
               <FaLocationArrow />
-              <p>Bantal guling</p>
+              <p>Jl. Prof. Dr. Hamka,Kota Semarang, Jawa Tengah</p>
             </div>
             <div className="flex items-center gap-3 mt-3">
               <FaMobileAlt />

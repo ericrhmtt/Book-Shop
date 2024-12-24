@@ -46,7 +46,7 @@ const App = () => {
       </div>
       
       <Routes>
-        {/* <Route path="/" element={<Popup />} /> */}
+        {/* <Route path="/" element={<Popup />} />` */}
       </Routes>
     </>
   );

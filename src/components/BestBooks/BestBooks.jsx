@@ -11,14 +11,14 @@ const BooksData = [
         img: Img1,
         title: "His Life will forever be Changed",
         description:
-        "lorem His Life will forever be Changed dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+        "His Life will forever be Changed dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
     },
     {
         id: 2,
         img: Img2,
         title: "Who's there",
         description:
-        "Who's there lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+        "Who's there ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
     },
     {
         id: 3,
@@ -32,6 +32,7 @@ const BooksData = [
 
 
 
+// eslint-disable-next-line react/prop-types
 const BestBooks = ({handleOrderPopup}) => {
 return <>
     <div className="py-10">
@@ -42,7 +43,7 @@ return <>
                 className="text-sm bg-clip-text text-transparent bg-gradient-to-r from-primary to-secondary"
                 >Trending Books</p>
                 <h1 className="text-3xl font-bold">Best Books</h1>
-                <p className="text-xs text-gray-400">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eos rem rerum quos ipsa impedit reprehenderit quas? Rerum reiciendis animi quas{" "}
+                <p className="text-l text-gray-400">Ini adalah buku terbaik dengan penjualan terbanyak untuk tahun 2024{" "}
                 </p>
             </div>
             {/* card section  */}
