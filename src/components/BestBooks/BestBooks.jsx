@@ -12,6 +12,8 @@ const BooksData = [
         title: "His Life will forever be Changed",
         description:
         "His Life will forever be Changed dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+        description1:
+        "Rp.79.000"
     },
     {
         id: 2,
@@ -19,6 +21,8 @@ const BooksData = [
         title: "Who's there",
         description:
         "Who's there ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+        description1:
+        "Rp.90.000"
     },
     {
         id: 3,
@@ -26,6 +30,8 @@ const BooksData = [
         title: "Lost Boy",
         description:
         "Lost Boy, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+        description1:
+        "Rp.110.000"
     },
     ];
 
@@ -70,6 +76,7 @@ return <>
                                 </div>
                                 <h1 className="text-xl font-bold">{book.title}</h1>
                                 <p className="text-gray-500 group-hover:text-white duration-300 text-sm line-clamp-2">{book.description}</p>
+                                <p className="text-gray-500 group-hover:text-white duration-300 font-bold line-clamp-2">{book.description1}</p>
                                 <button onClick={handleOrderPopup} className="bg-primary to-secondary text-white px-4 py-2 rounded-full mt-4 hover:scale-105 duration200 group-hover:bg-white group-hover:text-primary">Order Now</button>
                             </div>
                         </div>

@@ -30,7 +30,7 @@ const ImageList = [
 },
 ];
 
-const hero = ({handleOrderPopup}) => {
+const hero = () => {
   // eslint-disable-next-line react-hooks/rules-of-hooks
   const [imageid, setImageId] = useState(Book1);
   // eslint-disable-next-line react-hooks/rules-of-hooks
@@ -85,16 +85,7 @@ const hero = ({handleOrderPopup}) => {
                 </p>
               </h1>
               <p data-aos="slide-up" data-aos-duration="500" data-aos-delay="100" className="text-sm">{description}</p>
-              <div>
-                <button onClick={handleOrderPopup} data-aos="zoom-in" 
-                  className="bg-gradient-to-r
-                        from-primary to-secondary
-                        text-white px-4 py-2 rounded-full
-                        mt-4 hover:scale-105 duration-200"
-                >
-                  Order Now
-                </button>
-              </div>
+              
             </div>
             {/* image section  */}
             <div
